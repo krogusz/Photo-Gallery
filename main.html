@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./main.css">
+    </head>
+    <body>
+        <div id="mainContainer">
+                <h1>Photo Gallery</h1>
+            <div id="filterDiv">
+                    <button class="filter coloredFilter" id="filter1">show all</button>
+                    <button class="filter" id="filter2">unsplash</button>
+                    <button class="filter" id="filter3">littlevisuals</button>
+                    <button class="filter" id="filter4">travelcoffeebook</button>
+                    <button class="filter" id="filter5">jaymantri</button>
+            </div>
+
+            <div id="loader">
+                <img src="./loader.gif"/>
+            </div>
+
+            <div id="gallery">
+            </div>
+
+            <div id="buttonDiv">
+            </div>
+
+        </div>
+<!-- HTML elements for zooming images  -->
+        <div id="modal" class="modal">
+            <div id="modal_container">
+                <span id="close">&times;</span>
+                <img class="modal-content" id="modalImg">
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
