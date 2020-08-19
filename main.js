@@ -1,4 +1,4 @@
-const ENDPOINT = "https://www.splashbase.co/api/v1/images/search?query=tree";
+const ENDPOINT = "http://www.splashbase.co/api/v1/images/search?query=tree";
 
 //independent functions
 const figureClass = idx => (idx === 4 || idx === 8)?"photo2":(idx === 7 | idx === 9)?"photo3": "photo1";
